@@ -81,4 +81,9 @@ Instalar o Bootstrap:
 pip install django-bootstrap-v5
 ´´´
 
+Instalar o Editor de Text:
+´´´
+pip install django-tinymce
+´´´
+
 

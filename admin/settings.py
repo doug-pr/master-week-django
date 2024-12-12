@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'travel_packages',
 
     'bootstrap5',
+    'tinymce',
 ]
 
 MIDDLEWARE = [
