@@ -44,3 +44,41 @@ Executar as Migrations para criar as tabelas:
 python manage.py migrate
 ´´´
 
+Criar o Super Usuário:
+´´´
+python manage.py createsuperuser
+´´´
+
+Criar o App:
+´´´
+python manage.py startapp nome-do-app
+´´´
+
+Instalar a Biblioteca para trabalhar como campo ImageField:
+´´´
+pyhton -m pip install Pillow
+pip install Pillow
+´´´
+
+Verificar se o PIllow foi instalado:
+´´´
+python -m pip show Pillow
+pip show Pillow
+´´´
+
+Criar as migrations:
+´´´
+python manage.py makemigrations nome-do-app --name nome-da-migrations
+´´´
+
+Executar as migrations
+´´´
+python manage.py migrate
+´´´
+
+Instalar o Bootstrap:
+´´´
+pip install django-bootstrap-v5
+´´´
+
+
